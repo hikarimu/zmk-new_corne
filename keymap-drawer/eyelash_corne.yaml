@@ -29,7 +29,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: NUMBER}
+  - {t: Z, h: SYMBOL}
   - {t: X, h: LWIN}
   - C
   - V
@@ -78,7 +78,7 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: RGB OFF, type: held}
+  - RGB OFF
   - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -93,7 +93,7 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -127,7 +127,7 @@ layers:
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - OUT USB
+  - {t: OUT USB, type: held}
   - OUT BLE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -145,7 +145,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   Fn:
   - '&studio_unlock'
   - F1
