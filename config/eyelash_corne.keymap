@@ -46,13 +46,13 @@
            quick-release;
            ignore-modifiers;
          };
-         htmsk: hold-tap-mod {
+         htmsk: hold-tap-mod-stick-keys {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&qsk>, <&kp>;
+            bindings = <&skq>, <&kp>;
         };
     };
 
